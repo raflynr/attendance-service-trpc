@@ -1,4 +1,4 @@
-# rajawali-attendance-service
+#attendance-service-trpc
 
 To install dependencies:
 
