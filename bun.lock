@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "rajawali-attendance-service",
+      "name": "attendance-service-trpc",
       "dependencies": {
         "@prisma/client": "^6.11.1",
         "@trpc/client": "^11.4.3",
@@ -10,16 +10,16 @@
         "bcryptjs": "^3.0.2",
         "jsonwebtoken": "^9.0.2",
         "prisma": "^6.11.1",
-        "zod": "^4.0.5",
+        "zod": "^4.0.5"
       },
       "devDependencies": {
         "@types/bun": "latest",
-        "@types/jsonwebtoken": "^9.0.10",
+        "@types/jsonwebtoken": "^9.0.10"
       },
       "peerDependencies": {
-        "typescript": "^5",
-      },
-    },
+        "typescript": "^5"
+      }
+    }
   },
   "packages": {
     "@prisma/client": ["@prisma/client@6.11.1", "", { "peerDependencies": { "prisma": "*", "typescript": ">=5.1.0" }, "optionalPeers": ["prisma", "typescript"] }, "sha512-5CLFh8QP6KxRm83pJ84jaVCeSVPQr8k0L2SEtOJHwdkS57/VQDcI/wQpGmdyOZi+D9gdNabdo8tj1Uk+w+upsQ=="],
